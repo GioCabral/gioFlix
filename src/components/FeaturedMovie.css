@@ -1,0 +1,75 @@
+.featured {
+  height: 100vh;
+}
+
+.featuredVert{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, black 10%, transparent 90%);
+}
+.featuredHor{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, black, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  
+}
+.featuredName{
+  font-size: 60px;
+  font-weight: bold;
+}
+.featured--info{
+  font-size: 18px;
+  font-weight: bold;
+  margin: top 15px;
+}
+
+.featuredPoints, .featuredYear, .featuredSeasons{
+  display: inline-block ;
+  margin-right: 15px;
+}
+
+.featuredPoints{
+  color: #46d369 ;
+
+}
+.featuredDesc{
+  margin-top: 15px;
+  font-size: 20px;
+  color: #999;
+  max-width: 40%;
+}
+.featuredButtons{
+margin-top: 15px;
+}
+.featuredWatch, .featuredList{
+display: inline-block;
+font-size: 20px;
+font-weight: bold;
+padding: 15px 25px;
+border-radius: 5px;
+text-decoration: none;
+margin-right: 10px;
+opacity: 1;
+transition: all ease 0.2s;
+}
+.featuredWatch:hover, .featuredList:hover{
+opacity: 0.7;
+}
+.featuredWatch{
+  background-color: #FFF;
+  color: black;
+
+}
+.featuredList{
+  background-color: #333;
+  color: #FFF;
+}
+.featuredGenres{
+  margin-top: 15px;
+  font-size:18px ;
+  color: #999;
+}
